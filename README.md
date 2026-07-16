@@ -7,14 +7,18 @@ A dimensional complementarity-based periodic game differential evolution for num
 
 Authors：Pengpeng Shang, Sanyang Liu, Yiguang Bai, Yudong Gonga, Chunfeng Wang
 
-Main: The main program that runs
+Main.m: The main program that runs
 
-BoundConstraint：Population upper and lower bound processing program
+BoundConstraint.m：Population upper and lower bound processing program
 
-Initial: Population initialization program
+Initial.m: Population initialization program
 
-cec17func: CEC2017 benchmark test suite
+cec17_func.mexw64: CEC2017 benchmark test suite
+LSOPs: large-scale optimazition problems
+cec22_func.mexw64: CEC2022 benchmark test suite
 
-Modify the funcnum of Main to switch function calculations
+Modify directly "fhd= str2func('cec17_func')" in Main.m to call other benchmark tests
 
-Simply modifying other parameters of Main can achieve the desired function
+Modify the funcnum of Main.m to switch function calculations
+
+Simply modifying other parameters of Main.m can achieve the desired function
